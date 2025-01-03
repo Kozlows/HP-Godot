@@ -1,6 +1,7 @@
 extends Control
 
-
+func _ready() -> void:
+	$MarginContainer/Options/Volume.grab_focus()
 
 
 func _on_volume_pressed() -> void:

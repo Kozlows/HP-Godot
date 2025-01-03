@@ -1,6 +1,7 @@
 extends Control
 
-
+func _ready() -> void:
+	$MarginContainer/VBoxContainer/Host.grab_focus()
 
 func _on_host_pressed() -> void:
 	print("Start Hosting")
