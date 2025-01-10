@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dsvrus8y0ki1c"]
 
-[ext_resource type="Script" path="res://scenes/settings_tabcontainer.gd" id="1_wplhh"]
+[ext_resource type="Script" path="res://scripts/settings_tabcontainer.gd" id="1_wplhh"]
 
 [node name="Settings Tab Container" type="Control"]
 layout_mode = 3

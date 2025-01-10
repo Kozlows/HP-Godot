@@ -7,8 +7,8 @@ const SPEED = 100
 func _physics_process(delta: float) -> void:
 	
 	# Get the input directions for vertical and horizontal movement: -1, 0 or 1 
-	var vert_direction := Input.get_axis("move_up", "move_down")
-	var horz_direction := Input.get_axis("move_left", "move_right")
+	var vert_direction := Input.get_axis("ui_up", "ui_down")
+	var horz_direction := Input.get_axis("ui_left", "ui_right")
 
 	# Flip the sprite
 	if horz_direction > 0:
